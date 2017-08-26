@@ -8,6 +8,15 @@ AIPA is a speech, vision and iot based intelligent personal assistant inspired b
   <img src="https://user-images.githubusercontent.com/22610163/29638027-8d5b2dd8-885e-11e7-8ea1-ec33f96ef522.png">
 </p>
 
+Supported Environments
+
+ Operating Systems           | Linux                           
+ :--- | :--- |
+ **Languages**               | **English**
+ **System Requirements**     | **Minimally 1 core , 3GB free RAM**
+
+
+
 ## Installation
 
 **1.) Python and pip**
