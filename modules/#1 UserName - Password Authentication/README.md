@@ -1,6 +1,6 @@
 # UserName - Password Authentication
 
-The first layer of the security module (the system architectures were explained in [here](www)) is the traditional user_name password login system. [Tkinter](https://wiki.python.org/moin/TkInter) which is standard GUI (Graphical User Interface) package was used for developin login system with very basic GUI.
+The first layer of the security module (the system architectures were explained in [here](https://github.com/ahmetozlu/aipa/blob/master/modules/README.md)) is the traditional user_name password login system. [Tkinter](https://wiki.python.org/moin/TkInter) which is standard GUI (Graphical User Interface) package was used for developin login system with very basic GUI.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22610163/30500643-fc377944-9a67-11e7-81f2-09a61c25b8fd.gif">
