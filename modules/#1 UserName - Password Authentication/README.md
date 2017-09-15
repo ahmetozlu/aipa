@@ -11,4 +11,4 @@ The first layer of the security module (the system architectures were explained 
     username = "admin"	  #that's the given username
     password = "admin_123456" #that's the given password
 
-Login is successfull when program reaches the Line 39, you should add your codes after the line 39 to manage your program (in other words, add your codes after the line 39 for specifying what program do when login is successful).
+Login is successfull when program reaches the Line 39, you should add your codes after the line 39 to manage your program (in other words, add your codes after the line 39 for specifying what program does when login is successful).
