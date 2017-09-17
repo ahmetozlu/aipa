@@ -16,7 +16,61 @@ AIPA is a speech, vision and iot based intelligent personal assistant inspired b
   <img src="https://user-images.githubusercontent.com/22610163/30514270-2bbcd350-9b1a-11e7-94e6-066eeb149a7f.png">
 </p>
 
-Supported Environments
+Here are 4 main modules in AIPA;
+
+### 1.) Security Module
+
+Security Module has 2 layers to provide high secure system. First layer is traditionalUSerName-Password Authentication, the second layer is Multi-View Face Recognition Authentication.
+
+   **a.)** [UserName-Password Authentication](https://github.com/ahmetozlu/aipa/tree/master/modules/%231%20UserName%20-%20Password%20Authentication): It is traditional login system. You should set the username and password for user types, and there are 2 types for users which are *ADMIN* and *GUEST*. *ADMIN* has full access of the AIPA abilities but *GUEST* has restricted access of the APIA abilities. User has to enter right UserName-Password to pass the first security layer. After the passing for the UserName-Password Authentication, Face Recognition Authentication will be started.
+
+   **b.)** [Multi-View Face Recognition Authentication](https://github.com/ahmetozlu/aipa/tree/master/modules/%232%20Face%20Recognition%20Authentication): It is security system which is Face Recognition based. It is **multi-view face recognition** system so it provides so high security. User who claims that I am *ADMIN* have to proof it via showing his/her face for approximately 10 seconds the web camera to proof that he/she is *ADMIN*. The accuracy of this recognition system above than 97% right now, and the developing of the accuracy is in progress.
+
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22610163/30519214-d8884582-9b98-11e7-8e7e-03d279db203d.jpg">
+</p>
+
+
+### 2.) [Brain Module](https://github.com/ahmetozlu/aipa/tree/master/modules/%234%20Modelling%20Contextual%20Chatbot%20(with%20TensorFlow))
+
+Brain Module is the coolest part of this AI application. In this module, AIPA learn new things from its experiences and what you teach. The more context an AI has, the better it can handle open-ended requests so AIPA tries to learn new things every time. AIPA reacts accross the users requestments by using it's knowledge. The stateless system (i.e. AIPA can remember what the user said and respond accordingly) is provided using this Brain Module.
+
+Only *ADMIN* can teach to AIPA by speaking or entering text as his/her choise. This module is based Machine Learning and it was developed via [TensorFlow](https://www.tensorflow.org/).
+
+Brain Module designed through 3 steps:
+
+ 1. I transformed conversational intent definitions to a Tensorflow model
+
+ 2. Next, I built a chatbot framework to process responses
+
+ 3. Lastly, I showed how basic context can be incorporated into our response processor
+
+
+
+### 3.) [Interaction Module](https://github.com/ahmetozlu/aipa/tree/master/modules/%233%20Speech%20To%20Text)
+
+Interaction Module consists of the Human-Computer Interaction systems. It has Speech Recognition so users can have communicate with AIPA or command their requestmens via speaking. Moreover, it also has Messenger Bot so users can have communicate with AIPA or command via entering text.
+
+
+
+### 4.) IoT Module
+
+*ADMIN* can manage home remotely or onsite;
+
+ 1. Turn on/off the lights
+ 
+ 2. See who is ringing the bell
+ 
+ 3. Check the rooms temperature 
+ 
+ 4. Run the air conditions
+
+This module provides the home automation, and it uses a light-weighted protocol which is [MQTT](http://mqtt.org/).
+
+
+
+## SYSTEM REQUIREMENTS
 
  Operating Systems           | Linux                           
  :--- | :--- |
@@ -25,7 +79,7 @@ Supported Environments
 
 
 
-## Installation
+## INSTALLATION
 
 **1.) Python and pip**
 
