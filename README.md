@@ -4,9 +4,47 @@ AIPA (A.I. Personal Assistant) is Speech, Vision and IoT Based Intelligent Perso
 
 AIPA is a speech, vision and iot based intelligent personal assistant inspired by [JARVIS](https://www.facebook.com/notes/mark-zuckerberg/building-jarvis/10154361492931634/). The project is released under MIT license, I would love to have your help on improving AIPA, and see [CONTRIBUTING]() for more details.
 
+**The Personal Assistant Framework** is available under [module](https://github.com/ahmetozlu/aipa/tree/master/modules) folder.
+
+---
+What are the capabilities of AIPA?
+
+ 1. You can speak(AIPA can answer you with a voice, AIPA has a femala voice) or chat with AIPA.
+
+ 2. You can command AIPA by speaking or texting, for example you can play your favorite music, wikipedia or youtube searches or you can want to turn on/off the light from AIPA which can have communicate with the another devices via IoT ([MQTT](http://mqtt.org/) based).
+
+ 3. You can teach to AIPA([Tensorflow](https://www.tensorflow.org/) based) whatever you want! The more context an AI has, the better it can handle open-ended requests so AIPA tries to learn new things every time. It is the stateless system (i.e. AIPA can remember what the user said and respond accordingly).
+
+ 4. You can ask to AIPA, who is ringing the door? AIPA has **Multi-View Face Recognition**!
+---
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/22610163/29638027-8d5b2dd8-885e-11e7-8ea1-ec33f96ef522.png">
 </p>
+
+<details>
+           <summary>UserName-Password Authentication</summary>         
+</details>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22610163/30500643-fc377944-9a67-11e7-81f2-09a61c25b8fd.gif" width="640">
+</p> 
+
+<details>
+           <summary>Face Recognition Authentication</summary>         
+</details>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22610163/30500643-fc377944-9a67-11e7-81f2-09a61c25b8fd.gif" width="640">
+</p> 
+
+<details>
+           <summary>Intelligent Messenger Bot (TensorFlow based)</summary>         
+</details>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/22610163/30500643-fc377944-9a67-11e7-81f2-09a61c25b8fd.gif" width="640">
+</p> 
 
 ## THEORY
 
