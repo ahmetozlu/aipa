@@ -18,7 +18,7 @@ AIPA is a speech, vision and iot based intelligent personal assistant inspired b
 
 Here are 4 main modules in AIPA;
 
-### 1.) Security Module
+### 1.) [Security Module](https://github.com/ahmetozlu/aipa/tree/master/modules/%231%20Security%20Module)
 
 Security Module has 2 layers to provide high secure system. First layer is traditionalUSerName-Password Authentication, the second layer is Multi-View Face Recognition Authentication.
 
@@ -32,7 +32,7 @@ Security Module has 2 layers to provide high secure system. First layer is tradi
 </p>
 
 
-### 2.) [Brain Module](https://github.com/ahmetozlu/aipa/tree/master/modules/%234%20Modelling%20Contextual%20Chatbot%20(with%20TensorFlow))
+### 2.) [Brain Module](https://github.com/ahmetozlu/aipa/tree/master/modules/%232%20Brain%20Module/%232.1%20Modelling%20Contextual%20Chatbot%20(with%20TensorFlow))
 
 Brain Module is the coolest part of this AI application. In this module, AIPA learn new things from its experiences and what you teach. The more context an AI has, the better it can handle open-ended requests so AIPA tries to learn new things every time. AIPA reacts accross the users requestments by using it's knowledge. The stateless system (i.e. AIPA can remember what the user said and respond accordingly) is provided using this Brain Module.
 
@@ -48,13 +48,13 @@ Brain Module designed through 3 steps:
 
 
 
-### 3.) [Interaction Module](https://github.com/ahmetozlu/aipa/tree/master/modules/%233%20Speech%20To%20Text)
+### 3.) [Interaction Module](https://github.com/ahmetozlu/aipa/tree/master/modules/%233%20Interaction%20Module)
 
 Interaction Module consists of the Human-Computer Interaction systems. It has Speech Recognition so users can have communicate with AIPA or command their requestmens via speaking. Moreover, it also has Messenger Bot so users can have communicate with AIPA or command via entering text.
 
 
 
-### 4.) IoT Module
+### 4.) [IoT Module](https://github.com/ahmetozlu/aipa/tree/master/modules/%234%20IoT%20Module)
 
 *ADMIN* can manage home remotely or onsite;
 
