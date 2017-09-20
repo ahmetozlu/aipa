@@ -35,7 +35,7 @@ What are the capabilities of AIPA?
 </details>
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/22610163/30500643-fc377944-9a67-11e7-81f2-09a61c25b8fd.gif" width="640">
+  <img src="https://user-images.githubusercontent.com/22610163/30645073-3f7d1520-9e1d-11e7-91d6-4a55b1073d71.gif" width="640">
 </p> 
 
 <details>
