@@ -6,6 +6,8 @@ AIPA (A.I. Personal Assistant) is Speech, Vision and IoT Based Intelligent Perso
 
 AIPA is a speech, vision and iot based intelligent personal assistant inspired by [JARVIS](https://www.facebook.com/notes/mark-zuckerberg/building-jarvis/10154361492931634/). The project is released under MIT license, I would love to have your help on improving AIPA, and see [CONTRIBUTING]() for more details.
 
+***Please contact if you need professional AI based chat-bot project with the super high accuracy.***
+
 **The Personal Assistant Framework** is available under [module](https://github.com/ahmetozlu/aipa/tree/master/modules) folder.
 
 ---
