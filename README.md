@@ -197,3 +197,19 @@ These packages can be installed via pip :
 Years ago, we had to compile dlib manually from source (similar to how we install OpenCV). However, we can now use pip  to install dlib as well:
 
     $ pip install dlib
+    
+## Citation
+If you use this code for your publications, please cite it as:
+
+    @ONLINE{vdtc,
+        author = "Ahmet Özlü",
+        title  = "AIPA (A.I. Personal Assistant)",
+        year   = "2017",
+        url    = "https://github.com/ahmetozlu/aipa"
+    }
+
+## Author
+Ahmet Özlü
+
+## License
+This system is available under the MIT license. See the LICENSE file for more info.
